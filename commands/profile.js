@@ -8,8 +8,7 @@ exports.run = async (client, message, args) => {
             message.author
 
         const destroyer = user.id === '1026351257369194566' ? true : false
-        const hunain = user.id === '1239180909807407236' ? true : false
-        const titan = user.id === '1111457434356170873' ? true : false
+
         let badges = ''
 
         const guild = await client.guilds.fetch('1178390363027816619')
@@ -19,16 +18,7 @@ exports.run = async (client, message, args) => {
             else badges = '`No Badge Available`'
         })
 
-            
-        if (hunain === true || user.id === '1239180909807407236')
-            badges =
-                badges +
-                `\n<:snow:1279364235629166652> [Hunain](https://discord.com/users/1239180909807407236)`
-               
-        if (titan === true || user.id === '1111457434356170873')
-            badges =
-                badges +
-                `\n<:snow:1279364235629166652> [titan.](https://discord.com/users/1111457434356170873)`
+        
 
         if (destroyer === true || user.id === '1026351257369194566')
              badges =
