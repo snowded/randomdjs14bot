@@ -12,7 +12,7 @@ exports.run = async (client, message, args) => {
         name: member.displayName,
         iconURL: client.user.displayAvatarURL({ dynamic: true })
     })
-        .setDescription('### <:update:1279187661692862572> **[\`Download\`](https://discord.gg/hunainstore)**')
+        .setDescription('### <:update:1279187661692862572> **[\`Download\`](https://discord.gg/idkman)**')
         .setImage(avatarURL) 
         .setFooter({
             text: `Requested By ${message.author.displayName}`,
