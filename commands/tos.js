@@ -1,11 +1,11 @@
 const { EmbedBuilder, ActionRowBuilder, StringSelectMenuBuilder, ButtonBuilder, ButtonStyle } = require("discord.js");
 
 exports.run = async (client, message, args) => {
- 
+
   // Category Embeds
 const categoryEmbeds = {
   music: new EmbedBuilder()
-    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[Server members](https://discord.gg/hunainstore)**
+    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[Server members]()**
 > <:dot:1279124693412216853>: Fully automatic delivery
 > <:dot:1279124693412216853>: Online with realistic status / presence randomly distributed
 > Realistic profile (username , avatar , Mix aged) | Only if you buy online members
@@ -21,7 +21,7 @@ const categoryEmbeds = {
     .setFooter({ text: `Requested by ${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) }),
 
   config: new EmbedBuilder()
-    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[3M NITRO ACCOUNTS](https://discord.gg/hunainstore)**
+    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[3M NITRO ACCOUNTS]()**
 > <:dot:1279124693412216853> These Accounts have 90-80 days of nitro and full access to mail and discord.
 > <:dot:1279124693412216853> Accounts Are Never Resold Or Reused By Us. All Accounts Are Checked Twice Before Uploading On Shop.
 > <:dot:1279124693412216853> No Replacement Of Tokens getting limited by discord.
@@ -32,7 +32,7 @@ const categoryEmbeds = {
     .setFooter({ text: `Requested by ${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) }),
 
   filter: new EmbedBuilder()
-    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[Discord Nitro Gift link](https://discord.gg/hunainstore)**
+    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[Discord Nitro Gift link]()**
 
 <:dot:1279124693412216853> __Revoke Warranty__
 > full warranty is for 2 weeks or 30d if mentioned and its only for monthly gift links, yearly gift links got no warranty.
@@ -49,7 +49,7 @@ const categoryEmbeds = {
 
 
  \`\`\`yaml
-/// !! report form for discord nitro !! \\\ 
+/// !! report form for discord nitro !! \\\
 \`\`\`
 > <a:Check:1267939435790598267> ▸ Gift link given :
 > <a:Check:1267939435790598267> ▸ Purchase date of nitro :
@@ -70,7 +70,7 @@ const categoryEmbeds = {
     .setFooter({ text: `Requested by ${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) }),
 
   information: new EmbedBuilder()
-    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[Server Boosts](https://discord.gg/hunainstore)**
+    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[Server Boosts]()**
 > <:dot:1279124693412216853>: 14 Server Boosts To Any Server You Choose
 > <:dot:1279124693412216853>: Full Warranty
 > <:dot:1279124693412216853>: Not Against Discord Rules and Regulations
@@ -84,9 +84,9 @@ const categoryEmbeds = {
 > <:dot:1279124693412216853>: We cannot provide proof if the ID is not in the server or got kicked or revoked, as the boost will be activated through tokens.
 > <:dot:1279124693412216853>: We are not responsible for any issues arising from providing a wrong or invalid Discord server.`)
     .setFooter({ text: `Requested by ${message.author.tag}`, iconURL: message.author.displayAvatarURL({ dynamic: true }) }),
-  
+
   all: new EmbedBuilder()
-    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[SERVER RULES](https://discord.gg/hunainstore)**
+    .setDescription(`<:lnl_purpleflowers:1279113703706591406> **[SERVER RULES]()**
 > <a:Check:1267939435790598267> : No need to rush orders. please respect my privacy and time.
 > <a:Check:1267939435790598267> : Prices may change without prior notice. always check the updated pricelist
 > <a:Check:1267939435790598267> : No rude buyers. be kind. respect others as you want to be respected. rude = kicked.
@@ -103,7 +103,7 @@ const categoryEmbeds = {
       name: message.author.displayName,
       iconURL: message.author.displayAvatarURL({ dynamic: true }),
     })
-    .setDescription("> <:lnl_purpleflowers:1279113703706591406> **Below are the __Terms Of Services__ For Each Category**")   
+    .setDescription("> <:lnl_purpleflowers:1279113703706591406> **Below are the __Terms Of Services__ For Each Category**")
     .setColor("#007fff")
     //.setImage("https://cdn.discordapp.com/banners/1279054089119862794/a_25ce2952a9ce1e646719f696c1ee57aa.gif?size=4096")
     //.setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
@@ -229,5 +229,3 @@ exports.conf = {
 exports.help = {
   name: "termsofservice"
 };
-
-
