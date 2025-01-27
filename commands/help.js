@@ -42,7 +42,7 @@ With the help of this command you can view your achievements of the server.
       name: `Help Menu`,
       iconURL: client.user.displayAvatarURL({ dynamic: true }),
     })
-    .setDescription("<:lnl_purpleflowers:1279113703706591406> Official Bot of [Hunain Store](https://discord.gg/hunainstore) For Management.\n <:tutuPrefix:1267939215375601705> Prefix For This Server : \`-\`\n <a:reddot_:1279114784112902174> Total Commands (Prefix) : \`52\`\n\n<:cs_lists:1279116455572668461> **__Categories__**\n<:tutuSearch:1267939169934508042> Tos\n<:tutuMod:1267939618322518059> Moderation\n<:tutuAlert:1267939776728924233> Information\n<:tutuLeaderboard:1267940107122376806> Achievements")   
+    .setDescription("<:lnl_purpleflowers:1279113703706591406> Official Bot of [Your Server] For Management.\n <:tutuPrefix:1267939215375601705> Prefix For This Server : \`-\`\n <a:reddot_:1279114784112902174> Total Commands (Prefix) : \`52\`\n\n<:cs_lists:1279116455572668461> **__Categories__**\n<:tutuSearch:1267939169934508042> Tos\n<:tutuMod:1267939618322518059> Moderation\n<:tutuAlert:1267939776728924233> Information\n<:tutuLeaderboard:1267940107122376806> Achievements")   
     .setColor("#007fff")
     .setImage("https://cdn.discordapp.com/banners/1279054089119862794/a_25ce2952a9ce1e646719f696c1ee57aa.gif?size=4096")
     .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
