@@ -57,7 +57,7 @@ With the help of this command you can view your achievements of the server.
     .setCustomId("menu")
     .setMinValues(1)
     .setMaxValues(1)
-    .setPlaceholder("⭕ ・ Browse Hunain Store's Manager")
+    .setPlaceholder("⭕ ・ Browse Categories")
     .addOptions([
       {
         label: "Tos",
