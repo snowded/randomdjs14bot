@@ -133,7 +133,7 @@ exports.run = async (client, message, args) => {
 
             })
             .setDescription(`> <a:reddot_:1279114784112902174> **List Of Badges**
-  ${badges ? badges : '```yaml\nThis User is not Cool Enough to have badges!\n```'}\n\nIn Order To Receive Your Badges, You Must Be Present In Our Support Server. To Join The Support Server Click [Here.](https://discord.gg/hunainstore)`)
+  ${badges ? badges : '```yaml\nThis User is not Cool Enough to have badges!\n```'}\n\nIn Order To Receive Your Badges, You Must Be Present In Our Support Server. To Join The Support Server Click [Here.](https://discord.gg/)`)
         message.channel.send({ embeds: [pr] })
     }
 
